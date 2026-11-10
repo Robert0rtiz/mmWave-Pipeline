@@ -1,0 +1,57 @@
+# Git
+.git
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Synthetic and captured data
+ref/data/
+ref/data/**
+
+# Raw radar capture files
+*.dat
+*.bin
+*.cfg
+
+# Generated datasets
+*.npy
+*.npz
+*.csv
+
+# Generated images and reports
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Optional output directories
+output/
+outputs/
+results/
+plots/
+figures/
+temp/
+tmp/
+
+# Logs
+*.log

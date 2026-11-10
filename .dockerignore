@@ -1,0 +1,19 @@
+# Prevent transmitting private/large capture data in the Docker build context.
+# The running devcontainer accesses files via the workspace bind mount.
+.git/
+.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+ref/data/
+**/*.dat
+**/*.bin
+**/*.npy
+**/*.npz
+**/*.csv
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.pdf
