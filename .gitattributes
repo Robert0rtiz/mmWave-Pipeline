@@ -1,0 +1,24 @@
+# Automatically detect text files
+* text=auto
+
+# Standardize source files to Linux line endings
+*.py      text eol=lf
+*.ipynb   text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.json    text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.sh      text eol=lf
+
+# Docker and Git configuration
+Dockerfile    text eol=lf
+.gitignore    text eol=lf
+.dockerignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary radar and dataset files
+*.dat  -text
+*.bin  -text
+*.npy  -text
+*.npz  -text
