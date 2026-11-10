@@ -12,6 +12,7 @@
   "runArgs": ["--init"],
   "overrideCommand": false,
   "postCreateCommand": "python -m pip check",
+  "postStartCommand": "bash .devcontainer/git-post-start.sh",
   "forwardPorts": [8888],
   "portsAttributes": {
     "8888": {
